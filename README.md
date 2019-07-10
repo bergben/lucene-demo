@@ -7,15 +7,18 @@
 
 ### Step 1
 Clone this repository
+```bash
+git clone https://github.com/bergben/lucene-demo.git
+```
 
 ### Step 2
-Create a new Java Project in Eclipse
+Open Eclipse, Click "File" in the top left corner and select "Open Projects from File System"
 
 ### Step 3
-Right Click the Root Folder of the project in the Package Explorer -> Build Path -> Configure Build Path
+Click "Directory" for the import source and select the cloned repository from step 1
 
 ### Step 4
-Run IndexFiles.java: This will create the index
+Run IndexFiles.java in /src/lucenedemo: This will create the index
 
 ### Step 5
-Run SearchFiles.java: Now you can query the demo .txt files located in /data for their contents. Try e.g. "Naresh"
+Run SearchFiles.java in /src/lucenedemo: Now you can query the demo .txt files located in /data for their contents (in the console of Eclipse on the bottom side of the screen). Try e.g. "Naresh"
